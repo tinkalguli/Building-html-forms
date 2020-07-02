@@ -1,0 +1,269 @@
+/*=======================================*
+
+                  css reset
+
+*========================================*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=======================================*
+
+                my reset
+
+*========================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*========================================*
+
+                    global
+
+*==========================================*/
+
+body {
+  background: #FF7978 url("../images/bg-intro-desktop.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*=================================================
+
+                      typography
+
+===================================================*/
+
+body {
+  font: 400 18px/1.5 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*=================================================
+
+                    first section
+
+===================================================*/
+
+.sec-1 {
+  flex: 0 1 40%;
+}
+
+.sec-1 h1 {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/*=================================================
+
+                    second section
+
+===================================================*/
+
+.sec-2 {
+  flex: 0 1 50%;
+  text-align: center;
+}
+
+.advertise {
+  background: #5D54A3;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 7px 0 0 #0003;
+}
+
+.advertise a {
+  font-weight: 600;
+}
+
+.form {
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.form input {
+  padding: 15px 20px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+}
+
+.form label {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.form label a {
+  color: #FF7978;
+  font-weight: 700;
+}
+
+.button{
+ width:100%;
+ height: 50px;
+ color: #fff;
+ background: #37CC8A;
+ border: 0;
+ text-transform: uppercase;
+ cursor: pointer;
+ box-shadow: inset 0 -3px 2px #0003;
+}
