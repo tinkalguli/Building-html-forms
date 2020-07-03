@@ -228,7 +228,7 @@ a {
   padding: 30px;
 }
 
-.header a {
+.header a:not(.home) {
   color: #000;
   font-weight: 700;
 }
@@ -250,6 +250,11 @@ a {
 .logo-sec img {
   width: 40px;
   margin-right: 5px;
+}
+
+.home {
+  color: #69C6BA;
+  font-weight: 700;
 }
 
 /*=======================================*
